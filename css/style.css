@@ -24,7 +24,7 @@ a{
 }
 
 .container {
-max-width: 1300px;
+max-width: 1250px;
 padding: 0 10px;
 margin-left: auto;
 margin-right: auto;	
@@ -45,15 +45,15 @@ header {
 	margin-right: auto;
 }
 .namanganliklar24 {
-font-weight: bold;
-font-size: 28px;
-line-height: 33px;
-color: #295091;
-background-color: white;
-letter-spacing: 1px;
-padding:2px 5px;
-box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
-border-radius: 5px;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 33px;
+	color: #295091;
+	background-color: white;
+	letter-spacing: 1px;
+	padding:2px 5px;
+	box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+	border-radius: 5px;
 }
 .side-currency-info {
 	width: 260px;
@@ -114,9 +114,9 @@ border-radius: 5px;
 	color:white;
 	margin-left: 10px;
 }
-.follow:active {
+.follow:hover {
 	background: linear-gradient(90deg, #37AEE2  15.07%, #1E96C8 85.96%);
-}
+}	
 .nav-list {
 	display: flex;
 	margin-top: 50px;
@@ -145,7 +145,6 @@ border-radius: 5px;
 }
 .header-ads {
 	width: 100%;
-	border:1px solid black;
 }
 .nav-items:active a {
 color:#285193;
@@ -155,4 +154,125 @@ color:#285193;
 }
 .website-ads {
 	width: 100%;
+}
+
+/*corona curder dead part*/
+ .corona-details-info {
+ 	display: flex;
+ 	width: 100%;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	background: #F6F6F9;
+	border-radius: 5px;
+	padding: 45px 0;
+	margin-top: 18px;
+	padding-left: 35px;
+	padding-right: 80px;
+ }
+.corona-items {
+	display: flex;
+	align-items: center;
+}
+.corona-icons {
+	display: block;
+	margin-right: 18px;
+	margin-left: 32px;
+}
+.corona-bold {
+	font-weight: bold;
+}
+.corona-items::before{
+	content: "";
+	display: block;
+	width:2px;
+	height: 64px; 
+	background-color:#F4CCD1;
+}
+.corona-heading::before {
+	display: none;
+}
+.corona-infected:before {
+	height: 80px;
+	background: #EB5569;
+}
+.corona-item-list {
+	display: flex;
+	flex-direction: column;
+	padding-right: 50px;
+}
+.corona-infected-text {
+	font-size: 18px;
+	line-height: 21px;
+	color: #DB0000;
+}
+.corona-infected-number{
+	font-weight: bold;
+	margin-top: 3px;
+}
+.corona-cured-text {
+	font-size: 18px;
+	line-height: 21px;
+	color: #05B135;
+}
+.corona-cured-number{
+	font-weight: bold;
+	margin-top: 3px;
+}
+.corona-dead-number {
+	font-weight: bold;
+	margin-top: 3px;
+}
+/*start of crucial news section*/
+.crucial-news-section {
+	width: 100%;
+	margin-top:18px;
+}
+
+.crucial-news-section-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+}
+.cnsl-item {
+	width: 386px;
+	margin-bottom: 18px;
+}
+.cnsl-item-text {
+	margin:0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+/*beginning second ads*/
+.get-the-news-first {
+	display: flex;
+	align-items: center;
+}
+.advertismen-2 {
+	background: rgba(239, 186, 84, 0.18);
+	border-radius: 5px;
+	height: 90px;
+	display: flex;
+	align-items: center;
+	margin-top: 40px;
+}
+.bell-icon {
+	margin-left: 34px;
+	margin-right:18px;
+}
+.link-turn-on-notification {
+	background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+	border-radius: 5px;
+	padding: 10px 30px;
+	width: 260px;
+	text-align: center;
+	margin-right: 20px;
+	color:white;
+}
+.link-turn-on-notification:hover {
+	background: linear-gradient(90deg, rgba(255, 139, 54, 0.9)  0%, #FE5C28 88.43%);
+}
+.get-the-news-first {
+	margin-right: auto;
 }
