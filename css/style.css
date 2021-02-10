@@ -206,6 +206,7 @@ color:#285193;
 	color: #DB0000;
 }
 .corona-infected-number{
+	font-size: 24px;
 	font-weight: bold;
 	margin-top: 3px;
 }
@@ -217,10 +218,12 @@ color:#285193;
 .corona-cured-number{
 	font-weight: bold;
 	margin-top: 3px;
+	font-size: 24px;
 }
 .corona-dead-number {
 	font-weight: bold;
 	margin-top: 3px;
+	font-size: 24px;
 }
 /*start of crucial news section*/
 .crucial-news-section {
@@ -276,3 +279,194 @@ color:#285193;
 .get-the-news-first {
 	margin-right: auto;
 }
+
+/*start of latest news*/
+.latest-news-section {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+.latest-news-items {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.latest-news-items-text-header {
+	font-size: 17px;
+	line-height: 20px;	
+	color: #202020;
+	margin: 0;
+}
+.latest-news-items-picture {
+	margin-right: 20px;
+}
+.latest-news-items-paragraph {
+	margin:0;
+	margin-top: 8px;
+	margin-bottom: 12px;
+}
+.left-side-of-latest-news {
+	width: 64%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.right-side-of-latest-news {
+	display: flex;
+}
+.popular-news-list {
+	background: #F6F6F9;
+border-radius: 5px;
+}
+.popular-news-item {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.popular-news-paragraph  {
+	margin:0;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+.popular-new-header {
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+.bottom-line {
+	margin:0px;
+	margin-top: 16px;
+}	
+.ads-2 {
+	width: 109%;
+	margin-top:20px;
+}
+.button-for-latest-news {
+	width: 212px;
+	height: 42px;
+	background: #295093;
+	border-radius: 5px;
+	color:white;
+	outline: none;
+	border-style: none;	
+}
+.button-for-latest-news:hover {
+opacity: 0.9
+}
+.latest-new-header {
+	margin-right: auto;
+}
+
+
+/*beginning of playstore and googleplay ads part*/
+.last-advetisement {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 40px;
+	background: #F6F6F9;
+	border-radius: 5px;
+}
+.google-appstore {
+	display: flex;
+}
+.google-appstore-link {
+	margin-right: 20px;
+}
+.last-advetisement {
+	padding-top: 30px;
+}
+.paragraph-part-catching-up {
+	width: 530px;	
+}
+.header-part-catching-up{
+	font-weight: 500px;
+	font-size: 24px;
+	line-height: 28px;
+	color: #295093;
+}
+.paragraph-part-catching-up{
+	font-weight:bold;
+	font-size: 18px;
+	line-height: 21px;
+	color: #333333;
+}
+/*beginning of footer part*/
+
+.footer-header-part {
+	display: flex;
+	align-items: center;
+	margin-top: 40px;
+	padding-top: 20px;
+}
+.link-footer-namanganliklar {
+	width: 194px;
+	height: 38px;	
+	background: #133C82;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	color: #FFFFFF;
+	margin-right: auto;
+}
+.follow-us-p {
+	margin-right: 20px;
+	color:white;
+}
+.follow-us-link-footer {
+	width: 140px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	border-radius: 5px;
+	color:#133C82;
+}
+.telegram-blue-icon-img {
+	margin-right: 8px;
+}
+.footer-underline {
+	display: inline-block;
+	width: 100%;
+	height:2px;
+	background-color:#133C82;
+	border:none;
+	margin:0;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.footer-last-part {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+}
+.footer-last-part-column1 {
+	width: 370px;
+}
+.last-part-column2-text {
+	margin:0;
+	margin-bottom: 7px;
+	color:white;
+}
+.footer-last-part-clumn-parapgraph{
+	color:white;
+}
+.footer-last-part-column3-text {
+	margin:0;
+	margin-bottom: 7px; 
+	color:white;
+}
+.header-four {
+	margin:0;
+	color:white;
+}
+footer {
+	background: #295093;
+}
+
+
